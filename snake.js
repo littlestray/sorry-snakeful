@@ -5,5 +5,7 @@ function setup (){
 
 function draw (){
     background('indigo');
-    ellipse (50,50,80,80);
+    fill('cyan');
+    
+    ellipse(50,50,80,80);
 }
