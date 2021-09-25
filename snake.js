@@ -9,10 +9,12 @@ function draw (){
     background('indigo');
     
     stroke('red');
+
+    snek = snek + 1
     
     fill('cyan');
     ellipse(snek,snek,80,80);
-    snek = 75
+    
     fill(0,255,0,124);
     ellipse(100,100,snek,snek);
 }
