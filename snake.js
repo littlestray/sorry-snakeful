@@ -10,7 +10,7 @@ function draw (){
     
     fill('cyan');
     ellipse(50,50,80,80);
-    fill(0,0,0,0);
+    fill(0,255,0,124);
     ellipse(100,100,80,80);
 
 }
