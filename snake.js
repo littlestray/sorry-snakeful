@@ -8,7 +8,7 @@ function draw (){
     
     fill('cyan');
     ellipse(50,50,80,80);
-
+    fill('red');
     ellipse(100,100,80,80);
 
 }
