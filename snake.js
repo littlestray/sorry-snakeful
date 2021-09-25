@@ -6,9 +6,11 @@ function setup (){
 function draw (){
     background('indigo');
     
+    stroke('red');
+    
     fill('cyan');
     ellipse(50,50,80,80);
-    fill('red');
+    noFill();
     ellipse(100,100,80,80);
 
 }
